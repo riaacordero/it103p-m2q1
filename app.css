@@ -29,7 +29,7 @@ h1,h2,h3{
     font-weight: 600;
 }
 
-p, input, label, select{
+p{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -55,8 +55,12 @@ p, input, label, select{
 }
 
 .circle-container{
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
+    background: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
 }
 
 .button{
