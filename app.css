@@ -73,7 +73,8 @@ p, .tooltip{
     border: none;
     color: white;
     border-radius: 50px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     width: 150px;
     font-weight: 600;
 }
@@ -115,12 +116,12 @@ p, .tooltip{
   }
 
   .tooltip.bottom::after {
-    content: 'Name';
+    content: attr(data-tooltip-content);
     bottom: 0;
     left: 50%;
     transform: translate(-50%, calc(100% + 10px));
   }
-  
+
   .tooltip.bottom::before {
     bottom: 0;
     left: 50%;
