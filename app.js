@@ -9,14 +9,14 @@ var authors = [
         quotes: [
             'I am not afraid of storms, for I am learning how to sail my ship.',
             'The power of finding beauty in the humblest things makes home happy and life lovely.',
-            'Women have been called queens for a long time, but the kingdom given to them isn not worth ruling.', 'I would rather take coffee than compliments just now.', 'Love is the only thing that we can carry with us when we go, and it makes the end so easy.'
+            'Women have been called queens for a long time, but the kingdom given to them is not worth ruling.', 'I would rather take coffee than compliments just now.', 'Love is the only thing that we can carry with us when we go, and it makes the end so easy.'
         ]
     },
     {
         name: 'Kenneth Burke',
         imageUrl: 'assets/img/burke.png',
         quotes: [
-            'Life is not like drama: human life is drama.', 'Stories are equipment for living.',
+            'Life is not like drama; human life is drama.', 'Stories are equipment for living.',
             'Where there is persuasion, there is rhetoric, and where there is rhetoric, there is meaning.',
             'Man is rotten with perfection.',
             'We not only interpret the character events, we may also interpret our interpretations.'
