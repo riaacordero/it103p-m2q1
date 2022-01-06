@@ -57,7 +57,6 @@ p, .tooltip{
 .circle-container{
     width: 150px;
     border-radius: 100px;
-    background: white;
     border-color: white;
     border-style: solid;
     border-width: 5px;
@@ -70,6 +69,8 @@ p, .tooltip{
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
 }
+
+/* BUTTON */
 
 .button{
     background-color: #FF7676;
@@ -88,6 +89,7 @@ p, .tooltip{
     background-color: #F5EDA1;
     cursor: pointer;
 }
+
 /* TOOLTIP */
 
 .tooltip {
