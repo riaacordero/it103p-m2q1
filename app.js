@@ -117,8 +117,13 @@ function generateQuote(quoteIdx, currentAuthorIdx) {
     // quote content
     var quoteContent = document.createElement('h1');
     quoteContent.className = 'quote-content';
-    quoteContent.style = 'color:white;width:70%;text-align:center;margin-top:5%'
+    quoteContent.style = 'color:white;width:70%;text-align:center;'
     quoteContent.textContent = selectedAuthor.quotes[quoteIdx % selectedAuthor.quotes.length];
+
+    var quoteDescription = document.createElement('p');
+    quoteDescription.className = 'quote-description text-white';
+    quoteDescription.style = 'width:70%;text-align:center;'
+    quoteDescription.textContent = 'Generate another quote from the same author by clicking again the "get quote" button. To generate a quote from a different author, select and click on any avatar then click the "get quote" button.';
 
     // generate button
     var generateButton = document.getElementById('generate-btn');
@@ -127,6 +132,7 @@ function generateQuote(quoteIdx, currentAuthorIdx) {
     }
 
     mainQuote.appendChild(quoteContent);
+    mainQuote.appendChild(quoteDescription);
 }
 
 generateAuthorList();
